@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header > .prices {
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+}
+
+.prices tr th:first-child {
+    border-radius: 10px 0 0 0;
+}
+.prices tr th:last-child {
+    border-radius: 0 10px 0 0;
+}
+
+.prices-name {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.price-name-title-elem, .price-info-title-elem, .price-info-elem {
+    padding: 10px 30px;
+}
+
+.price-name-title-elem span {
+    display: block;
+}
+
+/* Table title */
+.price-name-title-elem:nth-child(1) {
+    background-color: #7887ab;
+}
+
+.price-name-title-elem:nth-child(2) {
+    background-color: #4f628e;
+}
+
+.price-name-title-elem:nth-child(3) {
+    background-color: #2e4172;
+}
+
+.price-name-title-elem:nth-child(4) {
+    background-color: #162955;
+}
+
+.price-name-title-elem:nth-child(5) {
+    background-color: #061539;
+}
+
+.version {
+    padding: 0 0 20px;
+}
+
+.price {
+    font-size: 30px;
+}
+
+/* Table Data */
+.prices-info {
+    font-size: 12px;
+}
+
+.price-info-elem {
+    text-align: center;
+}
+
+.price-info-title-elem {
+    text-align: left;
+}
+
+.prices-info tr:nth-child(even) {
+    background-color:#f3f3f3;
+}
+
+.prices-info tr:nth-child(even) td:nth-child(odd) {
+    background-color: #ececec;
+}
+
+.prices-info tr:nth-child(odd) {
+    background-color: #dbdbdb;
+}
+
+.prices-info tr:nth-child(odd) td:nth-child(even) {
+    background-color: #e7e7e7;
+}
+
+/* Start buttons */
+.start {
+    padding: 5px 25px;
+    background-color: #d3d3d3;
+    border: 1px solid #a0a0a0;
+    text-transform: uppercase;
+}
+
+.prices tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+}
+
+.prices tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+}
