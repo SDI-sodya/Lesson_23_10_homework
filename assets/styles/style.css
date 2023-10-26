@@ -100,4 +100,28 @@
     background-color: #d3d3d3;
     border: 1px solid #a0a0a0;
     text-transform: uppercase;
+    transition: all 300ms 0s ease;
+}
+
+.start:hover {
+    color: #ffffff;
+    box-shadow: 0 0 5px #000;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+
+.price-info-elem:nth-child(2) .start:hover {
+    background-color: #4f628e;
+}
+
+.price-info-elem:nth-child(3) .start:hover {
+    background-color: #2e4172;
+}
+
+.price-info-elem:nth-child(4) .start:hover {
+    background-color: #162955;
+}
+
+.price-info-elem:nth-child(5) .start:hover {
+    background-color: #061539;
 }
